@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AdminDashBoard.css">
+    <!-- Include Flatpickr CSS -->
+<link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+
+<!-- Include Flatpickr JS -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    
+    <title>Admin Dashboard</title>
+</head>
+<body>
+<div id="header">
+    <ul id="brandname">
+        <li>BUILDURSKILL</li>
+    </ul>
+    <ul id="heading">
+        <li id="leadDetailsBtn">Leads</li>
+        <li id="conversionDetailsBtn">Conversion</li>
+        <li id="ourstudentsDetailsBtn">Our Students</li>
+    </ul>
+</div>
+
+
+    <div class="Lead-container"></div>
+    <div class="Conversion-container" style="display: none;"></div>
+    <div class="Ourstudents-container" style="display: none;"></div>
+    
+    <script src="AdminDashBoard.js"></script>
+</body>
+</html>

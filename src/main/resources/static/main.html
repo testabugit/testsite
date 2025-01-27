@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="institute.js" defer></script>
+    <title>Build Your Skill</title>
+</head>
+<body>
+	<div id="outercontainer">
+    <div id="header">
+        <ul id="brandname">
+        	<!-- <li class="logo-container">
+                <img src="images/BUS LOGO.png" alt="BuildurSkill Logo" class="logo">
+            </li> -->
+            <li>BUILDURSKILL</li>
+        </ul>
+        <ul id="heading">
+            <li id="home">HOME</li>
+            <li id="port">PORTFOLIO</li>
+            <li><button id ="registerBtn">Register Now</button></li>
+			<li>
+			  <span id="callButton" class="call-button">📞 Call Now</span>
+			  <div id="callPopup" class="popup">
+			    <p class="popup-header">Select a number to call:</p>
+			    <a href="tel:+919841827888" class="phone-number" style="text-decoration: underline;" >+91 9841827888</a><br>
+			    <a href="tel:+918925002125" class="phone-number" style="text-decoration: underline;" >+91 8925002125</a><br>
+			    <button id="closePopup" class="close-button">Close</button>
+			  </div>
+			</li>
+		</ul>
+    </div>
+    
+    <div id="maindiv">
+        <div id="heroContent">
+            <h2 id="picker">Learn Create Innovate<br><span id="secondpicker">The Future of UX Starts here!</span></h2>
+            <p id="hidden">Get Free Consultation From Experts</p>
+            <button id ="requestacall">Request a call back<img class="white-icon" src="images/call.png"  ></button>
+
+            <div id="assure">
+                <div id="lifetime">
+                    <img src="images/LifeTime.png" alt="">
+                </div>
+                <div id="gaurentee">
+                    <img src="images/100%.png" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <div id="happiness" >
+            <div id="inner">
+                <div class="image-item image-2">
+                    <img src="images/candid.png" alt="Small Image 2">
+                </div>
+                <div class="image-item image-1">
+                    <img src="images/discussion.png" alt="Large Image 1">
+                </div>
+                <div class="image-item image-3">
+                    <img src="images/Fahim.png" alt="Small Image 3">
+                </div>
+                <div class="image-item image-4">
+                    <img src="images/library.png" alt="Small Image 4">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div id="grouppic" style="display:none;"><img src="images/BUS Colleague.png"></div>
+    
+
+    <div id="enquire">
+            <div id="popup">
+              <h1><span>Looking for course details? <span>Enquire Now!!<br><img id="vector" src="images/Vector 9.png" alt=""></span></span></h1>
+              <div class="form-container">
+                <input id="Name" type="text" placeholder="Your name" autocomplete="name">
+                <input id="Phoneno" type="text" placeholder="Your phone number" autocomplete="tel">
+                <input id="Email" type="email" placeholder="Your email address" autocomplete="email">
+                <select id="courseDropdown" class="dropdown" style="color: #757575;">
+                    <option value="" disabled selected class="placeholder">Select Course</option>
+                    <option value="option1">UX UI Design Course</option>
+                    <option value="option2">Web Development</option>
+                </select>
+              </div>
+              <button id ="getintouch" onclick=registerNow()><span>Get in Touch</span><span><img class="arrow-icon" src="images/right-arrow.png" ></span></button>
+            </div>
+    </div>
+
+	<div id="popupassurepng">
+	    <div id="PJL">
+	        <img id="assurepng" src="images/Assure.png">
+	    </div>
+    </div>
+
+    <!-- <div id="studentswork">
+        <img id="understudentswork" src="images/studentswork.png">
+    </div>
+
+    <div id="studentdiv">
+        <h1 id="studwrk">Our Students Works<br></h1>
+        <img id="studentsworkvector" src="images/Vector 9.png">
+    </div>
+
+    <div>
+        <div id="works">
+            <div id="workpreview">
+                <div id="studentsimage">
+                    <img style="height: 70%;" src="images/Lavanya.png" alt="">
+                    <p class="student-name" style="font-size: 20px;padding-left: 4%;margin-bottom: 3%;">Lavanya</p>
+                    <span style="color: #0000007a;padding-left: 4%;">UXUI Designer</span><br>
+                    <span style="padding-left: 4%;">@TCS</span><br>
+                    <span>View Profile</span>
+                </div>
+                <div id="studentsportfolio">
+                    <a href="https://www.behance.net/gallery/214528417/FLOW-TASK" target="_blank">
+                        <img id="coverpage" src="images/COVER 1 1.png" alt="Cover Page">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="leftrightswipe">
+            <button id="swipeLeft" onclick="swipe('left')"><img src="images/left.png" alt=""></button>
+            <button id="swipeRight" onclick="swipe('right')"><img src="images/left.png" alt=""></button>
+        </div>
+    </div> -->
+
+    <div id="upcomingicon">
+        <img src="images/Group 1000004135.png" alt="">
+    </div>
+
+    <div id="studentdiv">
+        <h1 id="studwrk">Upcoming Batch<br></h1>
+        <img id="upcomingbatchesvector" src="images/Vector 9.png">
+    </div>
+
+    <div class="batch-card-container">
+        <div class="batch-card">
+          <div class="batch-header">Weekend Batch</div>
+          <div class="batch-content">
+            <div id="batchinnerdata">
+                <img id="calender" src="images/calender.png" alt="">
+                <h3>January Batch</h3>
+            </div>
+            <p>Get Free Consultation From Experts and attend a Free Demo session</p>
+            <button id="weekendregister1">Request a call back</button>
+          </div>
+        </div>
+      
+        <div class="batch-card">
+          <div class="batch-header">Weekday Batch</div>
+          <div class="batch-content">
+            <div id="batchinnerdata">
+                <img id="calender" src="images/calender.png" alt="">
+                <h3>January Batch</h3>
+            </div>
+            <p>Get Free Consultation From Experts and attend a Free Demo session</p>
+            <button id="weekendregister2">Request a call back</button>
+          </div>
+        </div>
+      </div>
+      
+      <div id="whyus">
+        <img src="images/Group 1000004135.png" alt="">
+    </div>
+
+    <div id="studentdiv">
+        <h1 id="studwrk">Why us?<br></h1>
+        <img id="whyusvector" src="images/Vector 9.png">
+    </div>
+
+    <div id="whyus">
+        <div id="whyusimg">
+            <img src="images/whyus.png" alt="">
+            <button id="whyusbtn">Register Now</button>
+        </div>
+    </div>
+
+    <div id="ourcommunity">
+        <img src="images/Group 1000004135.png" alt="">
+    </div>
+
+    <div id="communitydiv">
+        <h1 id="community">Our Community<br></h1>
+        <img id="communityvector" src="images/Vector 9.png">
+    </div>
+
+    <div id="main-container">
+        <div id="scroll-container">
+        <img src="images/Rectangle 34624123.png" alt="">
+        <img src="images/Rectangle 34624124.png" alt="">
+        <img src="images/Rectangle 34624125.png" alt="">
+        <img src="images/Rectangle 34624123.png" alt="">
+        <img src="images/Rectangle 34624124.png" alt="">
+        <img src="images/Rectangle 34624125.png" alt="">
+        <img src="images/Rectangle 34624123.png" alt="">
+        <img src="images/Rectangle 34624124.png" alt="">
+        <img src="images/Rectangle 34624125.png" alt="">
+        <img src="images/Rectangle 34624123.png" alt="">
+        <img src="images/Rectangle 34624124.png" alt="">
+        <img src="images/Rectangle 34624125.png" alt="">
+        </div>
+    </div>
+
+    <!-- <div id="studentswork">
+        <img src="images/Group 1000004135.png" alt="">
+    </div>
+
+    <div id="studentdiv">
+        <h1 id="studwrk">Success Stories<br></h1>
+        <img id="studentsworkvector" src="images/Vector 9.png">
+    </div>
+
+    <div>
+        <div id="works">
+            <div id="workpreview">
+                <div id="studentsimage">
+                    <img style="height: 70%;" src="images/Lavanya.png" alt="">
+                    <p class="student-name" style="font-size: 20px;padding-left: 4%;margin-bottom: 3%;">Lavanya</p>
+                    <span style="color: #0000007a;padding-left: 4%;">UXUI Designer</span><br>
+                    <span style="padding-left: 4%;">@TCS</span><br>
+                    <span>View Profile</span>
+                </div>
+                <div id="studentsportfolio">
+                    <a href="https://www.behance.net/gallery/214528417/FLOW-TASK" target="_blank">
+                        <img id="coverpage" src="images/COVER 1 1.png" alt="Cover Page">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="leftrightswipe">
+            <button id="swipeLeft" onclick="swipe('left')"><img src="images/left.png" alt=""></button>
+            <button id="swipeRight" onclick="swipe('right')"><img src="images/left.png" alt=""></button>
+        </div>
+    </div> -->
+
+    <div id="faqicon">
+        <img src="images/Group 1000004135.png" alt="">
+    </div>
+
+    <div id="faq">
+        <h1 id="faqs">FAQ's<br></h1>
+        <img id="faqvector" src="images/Vector 9.png">
+    </div>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>1. What is the difference between UX and UI?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>A UX/UI Design Course teaches you how to design apps and websites that are easy to use, visually appealing, and user-friendly. You'll learn about UI design (how things look) and UX design (how things work). This course is perfect if you want to start a career in design, improve your skills, or
+                    switch to the tech industry.</p>
+            </div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>2. What is the role of ux/ui Designers?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>UX/UI Designers create apps and websites that are easy to use and look great. They focus on making sure users have a smooth and enjoyable experience while interacting with digital products.</p>
+            </div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>3. Who are suitable for this course?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>This course is perfect for anyone who loves creativity, wants to design apps or websites, or is looking to start or switch to a career in tech.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>4. What will I learn in the UI/UX design course?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>In this course, you’ll learn to design user-friendly apps and websites, create visually appealing layouts, Design Fundamentals and understand how users interact with digital products.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>5. Do I need any previous design experience to join this course?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>No prior design experience is required for this course. It’s beginner-friendly and covers everything step by step to help you start your UI/UX design journey.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>6. How will this course help me build a career in UI/UX design?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>This course equips you with essential UI/UX design skills and real-world experience. You’ll work on real-time projects and build a strong portfolio to kickstart your design career.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>7. Will I work on real-world projects during the course?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>Yes, you’ll work on real-world projects that apply your learning. This hands-on experience will help you build a strong portfolio for your career.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>8. Will I get any certification after completing the course?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>Yes, you will receive a certification upon completing the course, which can help showcase your skills to potential employers.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>9. Can I work on personal projects during the course?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>You’ll have the opportunity to turn your ideas into real-time projects, working on them in a professional way to create a polished portfolio.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>10. How can I get help if I have questions during the course?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>If you have questions during the course, you can get help through dedicated support channels, including course mentors, discussion forums, or live Q&A sessions.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>11. Will I be able to find a job after completing this course?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>This course equips you with the skills and portfolio to start your career in UI/UX design. Finding a job will be easy for you, and we will arrange some interview’s aswell.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+                <span>12.  How do I get started with enrolling in the course?</span>
+                <span class="faq-arrow">></span>
+            </div>
+            <div class="faq-content">
+                <p>To get started, Select the register now button then fill the form and complete the enrollment process. Our Team will take care the rest process.</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="footerequire">
+        <div id="footerpopup">
+            <h1>Unlock The Creative Skill With Us Build Your Career In UX</h1>
+            <p>"Master UX design essentials and tools to create user-friendly experiences. Build your skills and launch your UX career with expert guidance."</p>
+            <button id="footerbtn">Register Now</button>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footer-content">
+            <ul id="footer-links">
+                <li id="footerhome">Home</li>
+                <li id="footergallery">Gallery</li>
+                <li id="footerstudentwork">Students work</li>
+                <li id=footerabout>About</li>
+                <li>Contact</li>
+            </ul>
+            <ul id="contacts">
+			  <div style="display: flex;">
+			    <img class="footercallicon" src="images/call.png">
+			    <a href="tel:+919024250272" style="text-decoration: none; color: inherit;">
+			      <span id="buildurskillcontact">8925002125</span>
+			    </a>
+			    <span> | </span>
+			    <img class="footercallicon" src="images/email.png">
+			    <a href="mailto:buildurskillteam@gmail.com" style="text-decoration: none; color: inherit;">
+			      <span>buildurskillteam@gmail.com</span>
+			    </a>
+			  </div>
+			</ul>
+
+        </div>
+        <p class="footer-info">Copyright 2024. BuildurSkill School. All Rights Reserved</p>
+    </div>
+
+    <div id="leadsPage">
+        <div id="formContainer" class="form-container">
+            <button id="closeBtn" class="close-btn">×</button>
+            <h1>Connect with our Admission Team</h1>
+            <p>Get Free Consultation From Experts</p>
+            <div class="form-grid">
+              <div class="field">
+                <input id="name" placeholder="Name" autocomplete="name">
+              </div>
+              <div class="field">
+                <input id="email" placeholder="Email" autocomplete="email">
+              </div>
+              <div class="field">
+                <input type="tel" id="contact" placeholder="Contact number" autocomplete="tel">
+              </div>
+
+              <div class="dropdown-field" id="selectCourseField" style="height: auto;">
+                <select id="selectCourse" style="margin-top: -12px;" autocomplete="off">
+                  <option value="" disabled selected class="default-option">Select Course</option>
+                  <option value="ux-ui">UX UI Design Course</option>
+                  <option value="web-dev">Web Development</option>
+                </select>
+                <div class="underline"></div>
+              </div>
+              
+              <div class="dropdown-field" id="lookingDemo">
+                <select id="defining" autocomplete="off">
+                  <option value="" disabled selected class="default-option">What Defines you well?</option>
+                  <option value="student">Student</option>
+                  <option value="professional">Professional</option>
+                  <option value="parent">Parent</option>
+                </select>
+                <div class="underline"></div>
+              </div>
+              
+              <div class="dropdown-field" id="dropdownfield">
+                <select id="lookingForDemo" autocomplete="off">
+                  <option value="" disabled selected class="default-option">Looking for a Demo?</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+                <div class="underline"></div>
+              </div>
+              
+              
+              
+            </div>
+            <button id="getTouch" class="submit-btn" onclick="registerNowAdminPage();">
+              <span>Get in Touch</span>
+              <span><img class="arrow-icon" src="images/right-arrow.png"></span>
+            </button>
+          </div>
+          </div>
+
+        <div id="successpage">
+            <button id="succespageclose">×</button>
+            <div id="successicon"><img id="successiconimg" src="images/success.png" alt=""></div>
+            <div id="successpagecontent">
+                <strong>Success!</strong> Your Consultation request has been Submitted 
+            </div>
+            <span id="lastline">Our Admission team will contact you soon</span>
+        </div>
+</div>
+</body>
+</html>
