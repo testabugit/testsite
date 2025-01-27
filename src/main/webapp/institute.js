@@ -186,7 +186,7 @@ function registerNow() {
         studentsLookingForDemo : studentsLookingForDemo
     });
 
-    fetch("http://192.168.93.215:8080/api/institute/studentinformation", {
+    fetch("https://testsite-ax7e.onrender.com/api/institute/studentinformation", {
         method: "POST",
         headers: {
             "Content-Type": "application/x-www-form-urlencoded",
@@ -234,7 +234,7 @@ function registerNowAdminPage(){
         studentsLookingForDemo : lookingForDemo
     });
 
-    fetch("http://192.168.93.215:8080/api/institute/studentinformation", {
+    fetch("https://testsite-ax7e.onrender.com/api/institute/studentinformation", {
         mode: 'no-cors',
         method: "POST",
         headers: {
